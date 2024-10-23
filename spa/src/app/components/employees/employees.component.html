@@ -1,0 +1,52 @@
+<div class="container mt-5 employees-form">
+    <form>
+      <div class="mb-3">
+        <label for="firstName" class="form-label">Primer Nombre</label>
+        <input type="text" class="form-control" id="firstName" placeholder="Ingrese su primer nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="lastName" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="lastName" placeholder="Ingrese su apellido" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Ingrese su email" required>
+      </div>
+      <div class="mb-3">
+        <label for="phoneNumber" class="form-label">Número de Teléfono</label>
+        <input type="tel" class="form-control" id="phoneNumber" placeholder="Ingrese su número de teléfono">
+      </div>
+      <div class="mb-3">
+        <label for="hireDate" class="form-label">Fecha de Contratación</label>
+        <input type="date" class="form-control" id="hireDate" required>
+      </div>
+      <div class="mb-3">
+        <label for="jobId" class="form-label">ID de Trabajo</label>
+        <input type="text" class="form-control" id="jobId" placeholder="Ingrese el ID de trabajo" required>
+      </div>
+      <div class="mb-3">
+        <label for="salary" class="form-label">Salario</label>
+        <input type="number" class="form-control" id="salary" placeholder="Ingrese el salario" min="0" step="0.01">
+      </div>
+      <div class="mb-3">
+        <label for="commissionPct" class="form-label">Porcentaje de Comisión</label>
+        <input type="number" class="form-control" id="commissionPct" placeholder="Ingrese el porcentaje de comisión" step="0.01" min="0" max="1">
+      </div>
+      <div class="mb-3">
+        <label for="managerId" class="form-label">ID de Manager</label>
+        <input type="number" class="form-control" id="managerId" placeholder="Ingrese el ID del manager">
+      </div>
+      <div class="mb-3">
+        <label for="departmentId" class="form-label">ID de Departamento</label>
+        <input type="number" class="form-control" id="departmentId" placeholder="Ingrese el ID del departamento">
+      </div>
+  
+      <!-- Botones CRUD -->
+      <div class="d-flex justify-content-between">
+        <button type="submit" class="btn btn-success">Crear</button>
+        <button type="button" class="btn btn-info">Modificar</button>
+        <button type="button" class="btn btn-danger">Eliminar</button>
+      </div>
+    </form>
+  </div>
+  

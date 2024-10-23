@@ -1,0 +1,49 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .employees-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .employees-form .form-label {
+    font-weight: bold;
+    color: #495057;
+  }
+  
+  .employees-form .form-control {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .employees-form button {
+    width: 30%;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-success:hover,
+  .btn-info:hover,
+  .btn-danger:hover {
+    opacity: 0.9;
+  }
+  
